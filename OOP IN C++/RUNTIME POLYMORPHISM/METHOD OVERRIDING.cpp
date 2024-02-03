@@ -1,3 +1,9 @@
+// SAME METHOD NAME
+// SAME PARAMETER
+// INHERITENCE
+
+
+
 #include <iostream>
 using namespace std;
 
