@@ -17,6 +17,12 @@ void operator + (hero &h2){ //it accepts only one argument
 }
 
 
+void operator () (){
+  cout<<"mein bracket hue"<<this->a<<endl;
+
+}
+
+
 
 };
 
@@ -27,5 +33,7 @@ int main() {
   h1.a=7;
   h2.a=8;
   h2 + h1;
+  h1();
+  h2();
   
 }
